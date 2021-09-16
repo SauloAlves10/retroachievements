@@ -1,0 +1,9 @@
+Title: High Score (Game 1 or 3)
+Description: Get the Most Points
+Type: Score
+Lower Is Better: false
+Display Order: 0
+Start: O:0xH0000=0_0xH0000=2_N:0xH0019=0_d0xH0019!=0
+Cancel: 0xH0039=170
+Submit: 0xH0019!=0_d0xH0019=0
+Value: b0xh0038*10000_b0xh0039*100_b0xh003a
